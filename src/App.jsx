@@ -1,7 +1,9 @@
 function App() {
   return (
     <>
-      Hello world
+      <button>-</button>
+      <span>0</span>
+      <button>+</button>
     </>
   );
 }
