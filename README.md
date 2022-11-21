@@ -28,3 +28,10 @@ function clearArray(){
         ])
     }
 ```
+
+each array element is displayed by using map method as 
+```
+const elements = testArray.map((element) => {
+        return <h4 className="element">{element}</h4>;
+    });
+```

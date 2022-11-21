@@ -18,14 +18,13 @@ export default function Counter() {
             </div>
 
             <div id="counterContainer">
-
-            <button onClick={decrementCount} className="btn">
-                -
-            </button>
-            <span>{count}</span>
-            <button onClick={incrementCount} className="btn">
-                +
-            </button>
+                <button onClick={decrementCount} className="btn">
+                    -
+                </button>
+                <span>{count}</span>
+                <button onClick={incrementCount} className="btn">
+                    +
+                </button>
             </div>
         </div>
     );
