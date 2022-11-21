@@ -1,10 +1,12 @@
 import React from "react";
-import Counter from "./components/Counter";
+import Array from "./components/Array";
+
+import "./style.css"
 
 function App() {
     return (
         <div id="hero">
-            <Counter />
+            <Array/>
         </div>
     );
 }

@@ -13,9 +13,20 @@ export default function Counter() {
 
     return (
         <div id="counter">
-            <button onClick={decrementCount}>-</button>
+            <div id="heading">
+                <h1>Select a Count</h1>
+            </div>
+
+            <div id="counterContainer">
+
+            <button onClick={decrementCount} className="btn">
+                -
+            </button>
             <span>{count}</span>
-            <button onClick={incrementCount}>+</button>
+            <button onClick={incrementCount} className="btn">
+                +
+            </button>
+            </div>
         </div>
     );
 }
