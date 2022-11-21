@@ -1,24 +1,12 @@
-import React,{useState} from "react";
+import React from "react";
+import Counter from "./components/Counter";
 
 function App() {
-
-  const [count,setCount]=useState(0);
-
-  function decrementCount(){
-    setCount(prevCount=>prevCount-1);
-  }
-
-  function incrementCount(){
-    setCount(prevCount=>prevCount+1);
-  }
-
-  return ( 
-    <>
-      <button onClick={decrementCount}>-</button>
-      <span>{count}</span>
-      <button onClick={incrementCount}>+</button>
-    </>
-  );
+    return (
+        <div id="hero">
+            <Counter />
+        </div>
+    );
 }
 
 export default App;
