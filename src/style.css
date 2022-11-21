@@ -43,10 +43,10 @@
 #arrayComponent{
     border: 1px solid salmon;
     display: flex;
-
+    flex-wrap: wrap;
     max-width: 100%;
-    overflow: scroll;
 }
+
 
 .element{
     border: 1px solid red;
